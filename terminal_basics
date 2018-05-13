@@ -1,0 +1,47 @@
+Part I
+make a directory called first
+mkdir first
+change directory to the first folder
+cd first
+create a file called person.txt
+		touch person.txt
+change the name of person.txt to another.txt
+		mv person.txt another.txt
+make a copy of the another.txt file and call it copy.txt
+		cp another.txt copy.txt
+remove the copy.txt file
+		rm copy.txt
+make a copy of the first folder and call it second
+		cp -r first second
+delete the second folder
+		rm -rf second
+
+PART II
+What does the man command do? Type in man rm. How do you scroll and get out?
+Man opens help manual, arrow keys scroll, ctrlD, ctrlB, ctrlU scroll and q quits
+Look at the man page for ls. What does the -l flag do? What does the -a flag do?
+-1 for listing files on single line
+-l lists files
+-a lists all files including hidden
+Type the following command to download and save the contents of google.com: curl https://www.google.com > google.html
+Use less to look at the contents of google.html.
+Look at the man page for less. Read the section on /pattern. Search for the text hplogo in the google.html file.
+How do you jump between words in the terminal?
+Option arrow
+How do you get to the end of a line in terminal?
+Ctrl e
+How do you move your cursor to the beginning in terminal?
+Ctrl a
+How do you delete a word (without pressing backspace multiple times) in terminal?
+Ctrl delete
+What is the difference between a terminal and shell?
+The shell is what actually handles the command and the terminal is the program that runs it
+What is an absolute path?
+Full directory for a file starting with the root
+What is an relative path?
+Directory to file based on the current directory
+What is a flag? Give three examples of flags you have used
+A flag adds info or action to a command. -l, -a, -r
+What do the r and f flags do with the rm command?
+R removes and f force removes
+
